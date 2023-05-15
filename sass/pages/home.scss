@@ -1,0 +1,42 @@
+.container00 {
+  &.container01 {
+    background-image: url(../../images/home1.jpg);
+  }
+
+  &.container02 {
+    background-image: url(../../images/home2.jpg);
+  }
+
+  &.container03 {
+    background-image: url(../../images/home3.jpg);
+  }
+}
+
+.titlePadding {
+  padding-top: 400px;
+}
+
+.shortTitle {
+  width: 550px;
+  margin-bottom: -25px;
+}
+
+// Media Query
+
+@media (max-width: 750px) {
+  .titlePadding {
+    padding-top: 120px;
+  }
+
+  .shortTitle {
+    width: auto;
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 380px) {
+  .shortTitle {
+    width: auto;
+    font-size: 40px;
+  }
+}

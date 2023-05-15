@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  color: white;
+}
+
+.header {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#navItem:hover {
+  color: #b9b9b9;
+}
+
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logoPc {
+  width: 240px;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+#button {
+  padding: 12px 60px;
+  border: 2px solid white;
+  border-radius: 0px;
+}
+
+.footer {
+  background-color: black;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #b9b9b9;
+}
+
+.copyOBC {
+  color: #555252;
+}
+
+@media (max-width: 449px) {
+  .downloadDesc button {
+    margin: 10px 0px;
+  }
+}
+@media (max-width: 405px) {
+  .logoPc {
+    width: 180px;
+    margin-top: 15px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
+@media (max-width: 350px) {
+  .logoPc {
+    width: 150px;
+    margin-top: 15px;
+  }
+}
+.container00.container01 {
+  background-image: url(../../images/home1.jpg);
+}
+.container00.container02 {
+  background-image: url(../../images/home2.jpg);
+}
+.container00.container03 {
+  background-image: url(../../images/home3.jpg);
+}
+
+.titlePadding {
+  padding-top: 400px;
+}
+
+.shortTitle {
+  width: 550px;
+  margin-bottom: -25px;
+}
+
+@media (max-width: 750px) {
+  .titlePadding {
+    padding-top: 120px;
+  }
+  .shortTitle {
+    width: auto;
+    font-size: 50px;
+  }
+}
+@media (max-width: 380px) {
+  .shortTitle {
+    width: auto;
+    font-size: 40px;
+  }
+}
+.container00.container05 {
+  background-image: url(../../images/falcon913.jpg);
+}
+.container00.container06 {
+  background-image: url(../../images/falcon919.jpg);
+}
+.container00.container08 {
+  background-image: url(../../images/falcon91.jpg);
+}
+.container00.container09 {
+  background-image: url(../../images/falcon913.jpg);
+}
+.container00.container10 {
+  background-image: url(../../images/falcon913.jpg);
+}
+
+.carrosel01 {
+  background-image: url(../../images/falcon918.jpg);
+}
+
+.carrosel02 {
+  background-image: url(../../images/falcon914.jpg);
+}
+
+.carrosel03 {
+  background-image: url(../../images/falcon915.jpg);
+}
+
+.carrosel04 {
+  background-image: url(../../images/falcon916.jpg);
+}
+
+.carrosel05 {
+  background-image: url(../../images/falcon917.jpg);
+}
+
+.titleFalcon9 {
+  font-size: 90px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
+
+.titleContent {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+}
+
+.numbers {
+  background-color: black;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.numbers .titleNumb {
+  font-size: 90px;
+}
+.numbers .subTitleNumb {
+  font-size: 20px;
+}
+
+.falcon9Desc {
+  font-size: 22px;
+  width: 600px;
+  line-height: 50px;
+}
+
+.containerFalcon9Desc {
+  display: grid;
+  height: 90vh;
+  align-items: center;
+  justify-content: left;
+}
+
+#overViewPosition {
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 15%;
+}
+
+.carrosselSlide {
+  height: 100vh;
+}
+
+.carouselText {
+  background-color: black;
+}
+
+.downloadDesc {
+  background-color: black;
+  height: 85vh;
+  padding-top: 240px;
+}
+.downloadDesc a {
+  text-decoration: none;
+  color: #555252;
+}
+.downloadDesc a:hover {
+  color: #b9b9b9;
+}
+.downloadDesc button {
+  border: 2px solid white;
+  margin-right: 10px;
+  background-color: black;
+}
+.downloadDesc button:hover {
+  transition: all ease-in-out 0.4s;
+  background-color: white;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .numbers .titleNumb {
+    font-size: 80px;
+  }
+  .numbers .subTitleNumb {
+    font-size: 18px;
+  }
+  #overViewPosition {
+    padding-top: 35%;
+  }
+  .falcon9Desc {
+    width: auto;
+  }
+}
+@media (max-width: 575px) {
+  .numbers {
+    height: 60vh;
+  }
+  #overViewPosition {
+    width: auto;
+    margin-left: auto;
+  }
+}
+@media (max-width: 375px) {
+  .titleFalcon9 {
+    font-size: 50px;
+  }
+  .falcon9Desc {
+    line-height: auto;
+    font-size: 18px;
+  }
+  .subTitleFalcon {
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
